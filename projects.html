@@ -2,60 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Our Projects</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description" content="Reid’s Construction and Projects – Professional paving and construction services across South Africa.">
-  <meta name="author" content="Reid’s Construction and Projects">
+  <!-- ✅ Title aligned with other pages -->
+  <title>Reids Construction and Projects</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Reids Construction and Projects – View our completed paving and construction projects across South Africa.">
+  <meta name="author" content="Reids Construction and Projects">
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- ✅ Consistent Navbar Structure -->
 <nav class="navbar">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="services.html">Services</a>
-  <a href="projects.html">Projects</a>
-  <a href="contact.html">Contact</a>
+  <div class="logo">Reids Construction & Projects</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </nav>
 
-<section class="content">
+<!-- ✅ Section styled the same as other pages -->
+<section class="section">
   <h1>Our Projects</h1>
-  <p>Some of our completed paving projects:</p>
+  <p>Some of our completed paving and construction projects.</p>
 
   <div class="gallery">
 
     <div class="card" onclick="openLightbox('projects_gallery/Cobble Paving.png','100x100 Grey Cobbles')">
-      <img src="projects_gallery/Cobble Paving.png" alt="Grey Cobbles">
+      <img src="projects_gallery/Cobble Paving.png" alt="100x100 Grey Cobbles">
       <div class="overlay">100x100 Grey Cobbles</div>
     </div>
 
     <div class="card" onclick="openLightbox('projects_gallery/Cobble Paving 3.png','Grey / Tan Cobbles')">
-      <img src="projects_gallery/Cobble Paving 3.png" alt="Grey Tan Cobbles">
+      <img src="projects_gallery/Cobble Paving 3.png" alt="Grey and Tan Cobbles">
       <div class="overlay">Grey / Tan Cobbles</div>
     </div>
 
     <div class="card" onclick="openLightbox('projects_gallery/Cobble_paving 2.png','Grey Cobbles & Tan Slabs')">
-      <img src="projects_gallery/Cobble_paving 2.png" alt="Cobble paving">
+      <img src="projects_gallery/Cobble_paving 2.png" alt="Grey Cobbles and Tan Slabs">
       <div class="overlay">Grey Cobbles / Tan Slabs</div>
     </div>
 
     <div class="card" onclick="openLightbox('projects_gallery/interlocker pavers.png','Red Interlocker Pavers')">
-      <img src="projects_gallery/interlocker pavers.png" alt="Interlocker Pavers">
+      <img src="projects_gallery/interlocker pavers.png" alt="Red Interlocker Pavers">
       <div class="overlay">Red Interlocker Pavers</div>
     </div>
 
     <div class="card" onclick="openLightbox('projects_gallery/Paving_11.png','Interlocker Pavers')">
-      <img src="projects_gallery/Paving_11.png" alt="Paving">
+      <img src="projects_gallery/Paving_11.png" alt="Interlocker Pavers">
       <div class="overlay">Interlocker Pavers</div>
     </div>
 
   </div>
 </section>
 
-<!-- LIGHTBOX -->
+<!-- ✅ Lightbox (unchanged, just cleaned) -->
 <div id="lightbox" class="lightbox" onclick="closeLightbox()">
   <span class="close">&times;</span>
   <img id="lightbox-img" alt="">
@@ -65,3 +72,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+
