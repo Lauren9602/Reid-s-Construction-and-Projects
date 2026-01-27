@@ -129,3 +129,72 @@ body {
   transform: scale(1.03);
 }
 
+/* ================= HERO SECTION ================= */
+
+.hero {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("projects_gallery/Paving_11.png") center/cover no-repeat;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  max-width: 900px;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 35px;
+  color: #ddd;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background: #ffffff;
+  color: #000;
+}
+
+.btn.primary:hover {
+  background: #ddd;
+}
+
+.btn.secondary {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn.secondary:hover {
+  background: #fff;
+  color: #000;
+}
+
